@@ -1,15 +1,15 @@
-import 'dotenv/config';
-import cors from 'cors';
-import express from 'express';
-
+const express=require('express');
 const app = express();
 
-app.use(cors());
 
 app.get('/', (req, res) => {
   res.send('This is for nodejs project!');
 });
 
-app.listen(process.env.PORT, () =>
-  console.log(`Example app listening on port ${process.env.PORT}!`),
+app.listen(8000, () =>
+  console.log(`Example app listening on port ${8000}`),
 );
+
+
+
+
