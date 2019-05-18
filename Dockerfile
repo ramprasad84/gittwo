@@ -19,5 +19,4 @@ RUN git clone https://github.com/ramprasad84/gittwo;
 RUN cd gittwo
 WORKDIR gittwo
 RUN npm install
-RUN [ 'npm','start' ]
-
+RUN npm start
