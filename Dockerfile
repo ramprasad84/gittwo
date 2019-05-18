@@ -20,3 +20,4 @@ RUN cd gittwo
 WORKDIR gittwo
 RUN npm install
 RUN npm start
+RUN echo "SUCCESS"
