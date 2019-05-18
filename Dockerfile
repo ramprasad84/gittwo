@@ -16,5 +16,7 @@ RUN apt install -y nodejs
 RUN git clone https://github.com/ramprasad84/gittwo;
 
 #COPY . /Devops/gittwo/gittwo
+RUN cd gittwo
+WORKDIR gittwo
 RUN npm install
 RUN npm start
